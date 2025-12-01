@@ -122,7 +122,7 @@ Dependencies (from `pyproject.toml`):
 
 ## Setup with `uv`
 
-All commands below assume you are in the project root: `safespace-ai-therapist/`.
+All commands below assume you are in the project root: `ai-therapist/`.
 
 ### 1. Clone and install
 
