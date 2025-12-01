@@ -1,6 +1,6 @@
-# SafeSpace (2.0) – AI Mental Health Therapist
+# SukoonAI – AI Mental Health Therapist
 
-SafeSpace is an AI-powered mental health companion that combines a chat-style frontend, an LLM-based backend agent, and integrations with Twilio WhatsApp and Google Maps. It is designed to offer empathetic, tool-augmented support, including:
+SukoonAI is an AI-powered mental health companion that combines a chat-style frontend, an LLM-based backend agent, and integrations with Twilio WhatsApp and Google Maps. It is designed to offer empathetic, tool-augmented support, including:
 
 - Conversational mental health guidance using a therapeutic LLM (MedGemma via Groq)
 - Detection of crisis scenarios with an emergency call tool (Twilio voice)
@@ -16,7 +16,7 @@ The project is structured as a small, opinionated demo of how to build a **tool-
 ## Project Structure
 
 ```text
-safespace-ai-therapist/
+sukoonAI-ai-therapist/
 ├── backend/
 │   ├── ai_agent.py         # LangGraph-based AI agent + tools (LLM, emergency call, therapist finder)
 │   ├── config.py           # API keys and configuration (not shown here; you create it)
@@ -254,7 +254,7 @@ uv run streamlit run frontend.py
 This will:
 
 - Open (or provide a URL to) a Streamlit app, typically at `http://localhost:8501`.
-- Show a chat interface titled **"🧠 SafeSpace – AI Mental Health Therapist"**.
+- Show a chat interface titled **"🧠 SukoonAI – AI Mental Health Therapist"**.
 - Let you type messages via `st.chat_input`.
 - Under the hood, each user message sends a `POST` request to `http://localhost:8000/ask`.
 - Display the assistant’s response and the name of the tool that was used.
