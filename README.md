@@ -127,8 +127,8 @@ All commands below assume you are in the project root: `safespace-ai-therapist/`
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/AIwithhassan/safespace-ai-therapist.git
-cd safespace-ai-therapist
+git clone https://github.com/thenitinsharma/ai-therapist.git
+cd ai-therapist
 
 # Install dependencies and create .venv using uv
 uv sync
